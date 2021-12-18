@@ -21,3 +21,11 @@ console.log(texto2.match(/(lenta)(mente)?/gi))
 console.log(texto2.replace(/(lenta)(mente)/gi, '$2')) 
 // outra forma de referenciar um grupo com o método replace utilizando "$2"
 console.log(texto2.replace(/(lenta)(mente)/gi, 'xablau $2'))
+
+// Logo abaixo um experimento para verificar se no JS suporta certa quantidade de grupos.
+// mas precisamente se ele suporta mas que 9 grupos, pois em algumas documentações é mostrado
+// como exemplos no maximo 9 grupos.
+
+const texto3 = 'abcdefghijkll';
+console.log(texto3.match(/(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)\12/g));
+
