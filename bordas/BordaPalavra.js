@@ -18,4 +18,4 @@ console.log(texto2.match(/([\wÀ-ú-]*)?dia([\wÀ-ú-]*)?/gi));
 console.log(texto2.match(/[\wÀ-ú-]*dia[\wÀ-ú-]*/gi)); 
 // possivel solução referente a console anterior.
 
-// OBS: a borda "\b" ele trata letras com acentuação como borda que para nos meros mortais não são bordas. Nesse caso partir para uma logica com basa na tabela UNICODE. 
+// OBS: a borda "\b" ele trata letras com acentuação como borda que para nós meros mortais não são bordas. Nesse caso partir para uma logica com baea na tabela UNICODE. 
